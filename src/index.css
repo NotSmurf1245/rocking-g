@@ -1,13 +1,149 @@
+/* Main CSS */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NavBar CSS */
+
+.bar {
+  display: flex;
+  width: calc(100% - 40px);
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  align-items: center;
+}
+
+.logo {
+  width: 4%;
+  float: left;
+  min-width: 50px;
+}
+
+.navItem {
+  text-align: center;
+  float: right;
+  margin-left: auto;
+}
+
+.navText {
+  margin-right: 30px;
+}
+
+/* Carrosel CSS */
+
+.imageCarrosel {
+  width: 100%;
+  height: calc(100vh - 78px);
+  margin-top: 5px;
+}
+
+.carrosel {
+  width: 100%;
+  height: 100%;
+  background-color: lightcoral;
+}
+
+/* Body Styling Start */
+
+.bodyTitle {
+  text-align: center;
+  font-size: 50px;
+  color: #2E358F;
+}
+
+/* Body Objects CSS */
+
+.bodyObject {
+  margin: 50px;
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.bodySection {
+  height: 100%;
+  width: 55%;
+  text-align: center;
+}
+
+.bodyText {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+/* Body Object (Image Positions) CSS */
+
+.imageLeft {
+  height: 500px;
+  width: 400px;
+  background-color: blue;
+  margin-right: auto;
+}
+
+.imageRight {
+  height: 500px;
+  width: 400px;
+  background-color: blue;
+  margin-left: auto;
+}
+
+/* Line Element */
+
+.lineElem {
+  width: 93vw;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+/* Footer Section Styling */
+
+table {
+  width: auto;
+  margin: 0px auto;
+}
+
+th {
+  text-align: right;
+}
+
+.footerContainer {
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 30px;
+}
+
+/* Sponsers Section CSS */
+
+.sponserContainer {
+  width: 33.3vw;
+}
+
+.imageContainer {
+  display: flex;
+}
+
+.sponserImage {
+  height: 15vh;
+  margin: 0px auto;
+}
+
+
+/* Contact Section Styling */
+
+.contactElem {
+  width: 33.3vw;
+}
+
+/* Hours Section Styling */
+
+.hoursElem {
+  width: 33.3vw;
+  display: flex;
+  flex-direction: column;
 }
