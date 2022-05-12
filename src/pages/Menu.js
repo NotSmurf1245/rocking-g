@@ -5,8 +5,8 @@ import Menu2 from '../components/assets/Menus/Tacos-Drinks.jpeg'
 function Menu() {
   return (
     <div className="menuContainer">
-        <img className="menu" src={Menu1} />
-        <img className="menu" src={Menu2} />
+        <img alt="Menu" className="menu" src={Menu1} />
+        <img alt="Menu" className="menu" src={Menu2} />
     </div>
   )
 }
