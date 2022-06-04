@@ -21,7 +21,7 @@ function BasicFooter() {
                 <h1 className="bodyTitle">Contact Us</h1>
                 <table>
                     <tr><th>Address</th><td>1250 Mission Grande</td></tr>
-                    <tr><th>Phone</th><td>(210) 499-839</td></tr>
+                    <tr><th>Phone</th><td>(210) 499-9839</td></tr>
                     <tr><th>Email</th><td>info@onpargolf.net</td></tr>
                 </table>
             </div>
